@@ -1,0 +1,79 @@
+.maiNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    flex: 1;
+    padding:25px 0px 0px 90px;
+    color: white;
+    font-size: 1.75rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+}
+
+.links {
+    flex: 2;
+}
+
+.linkss {
+    text-decoration: none;
+    color: white;
+    font-size: 1.05rem;
+    font-family: "Rubik", sans-serif;
+}
+
+.linkss:hover {
+    border-bottom: 2.5px solid white;
+    color: #F2EAD3;
+}
+
+
+
+.navList  {
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
+  list-style: none;
+  padding-top: 28px;
+}
+
+
+  
+
+.search {
+    flex: 1;
+    color: white;
+    padding: 28px 0px 0px 200px;
+}
+
+
+/* For screens smaller than 768px (typical mobile devices) */
+@media only screen and (max-width: 768px) {
+    .maiNav {
+      flex-direction: column; /* Change flex direction to stack items vertically */
+      align-items: flex-start; /* Align items to the start of the container */
+    }
+  
+    .logo {
+      padding: 25px 0 0 25px; /* Adjust logo padding for better spacing on smaller screens */
+    }
+  
+    .links {
+      flex: none; /* Remove flex to prevent links from stretching */
+      width: 100%; /* Set width to fill the container */
+      padding: 10px 0; /* Adjust padding for better spacing */
+    }
+  
+    .linkss {
+      display: block; /* Change links to block level for better stacking */
+      padding: 10px 25px; /* Adjust padding for better spacing */
+    }
+  
+    .search {
+      flex: none; /* Remove flex to prevent stretching */
+      padding: 10px 25px; /* Adjust padding for better spacing */
+    }
+  }
+  

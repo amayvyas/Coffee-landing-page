@@ -1,0 +1,36 @@
+.main-container1 {
+    width: 100vw;
+    height: auto;
+    background-color:#E5D8C8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 75px;
+}
+
+.exploreText{
+    font-family: "Roboto", sans-serif;
+    color: #28241b;
+    font-weight:800;
+    font-size: 3rem;
+}
+
+.explore {
+   background-color: #28241b;
+   color: #fff;
+   font-family: "Roboto", sans-serif;
+   font-weight: 400;
+   font-size: 1rem;
+   border-radius: 25px;
+   padding: 10px;
+   margin-left: -245px;
+}
+
+
+@media only screen and (max-width: 798px) {
+    .explore {
+      margin-left: -50px; /* Reset margin for smaller screens */
+    }
+  }
+  

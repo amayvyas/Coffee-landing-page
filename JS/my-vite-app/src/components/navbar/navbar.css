@@ -1,0 +1,85 @@
+.mainContainer {
+  max-width: 100vw;
+  height: 100vh;
+  background-image: url("../../assets/background1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.textArea {
+  margin: 8rem 0rem 0rem 8rem;
+}
+
+.text {
+  font-size: 3rem;
+  color: #ffff;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 700;
+  padding: 0px 0px 7.5px 0px;
+}
+
+.welcome {
+  font-size: 2.5rem;
+  color: #F2EAD3;;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 700;
+  padding: 0px 0px 10px 0px;
+}
+
+.button {
+  margin: 10px 0px 0px 0px;
+}
+
+.order {
+  width: 11.5%;
+  height: 45px;
+  padding: 5px;
+  background-color: white;
+  border: 0.5px solid transparent;
+  border-radius: 25px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  font-family: revert;
+}
+
+.order:hover {
+  color: #3F2305;
+  background-color: #F2EAD3;
+  transition-duration: ease-in 0.5s ;
+}
+
+
+
+
+
+
+/* For screens smaller than 768px (typical mobile devices) */
+@media only screen and (max-width: 768px) {
+  .mainContainer {
+    height: auto; /* Set height to auto to adjust according to content */
+    background-size: cover; /* Ensure background image covers the container */
+    background-position: center; 
+  }
+
+  .textArea {
+    margin: 2rem; /* Adjust margin for better spacing on smaller screens */
+  }
+
+  .text {
+    font-size: 2rem; /* Decrease font size for better readability on smaller screens */
+  }
+
+  .welcome {
+    font-size: 1.5rem; /* Decrease font size for better readability on smaller screens */
+  }
+
+  .button {
+    margin: 10px 0; /* Adjust margin for better spacing on smaller screens */
+  }
+
+  .order {
+    width: 80%;
+    height: 40px; /* Adjusted height */
+    font-size: 0.9rem; /* Decrease font size for better readability on smaller screens */
+  }
+}

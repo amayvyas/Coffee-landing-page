@@ -1,0 +1,19 @@
+.main {
+    width: 100vw;
+    height: 50vh;
+    background-color:#E5D8C8;
+    padding: 75px;
+    background-image: url("../../assets/beans.jpg");
+    background-blend-mode: color-burn;
+    background-size: cover;
+    background-position: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .main {
+        width: 100%; 
+        height: auto; 
+        padding: 50px; 
+    }
+   
+}
